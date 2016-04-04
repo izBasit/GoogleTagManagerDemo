@@ -49,14 +49,14 @@ public class GTMDemo extends Application {
         analytics = GoogleAnalytics.getInstance(this);
         analytics.setLocalDispatchPeriod(1800);
         if (BuildConfig.DEBUG)
-            analytics.setDryRun(true);
+            analytics.setDryRun(false);
         else
             analytics.setDryRun(false);
 
         tracker = getTracker(TrackerName.APP_TRACKER);
         tracker.enableExceptionReporting(true);
         tracker.enableAdvertisingIdCollection(true);
-        tracker.enableAutoActivityTracking(false);
+        tracker.enableAutoActivityTracking(true);
     }
 
     /**

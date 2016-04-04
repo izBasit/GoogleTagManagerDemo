@@ -68,6 +68,9 @@ public class MainActivity extends Activity {
 
         container = ContainerHolderSingleton.getContainerHolder().getContainer();
         updateCategories();
+
+        GTMAnalytics gtmAnalytics = new GTMAnalytics(this);
+        gtmAnalytics.setScreenName("Main activity!!");
     }
 
     @Override

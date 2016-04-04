@@ -31,7 +31,7 @@
     <integer name="ga_dispatchPeriod">1800</integer>
 
     <!-- Enable dry run mode. Default is false -->
-    <bool name="ga_dryRun">true</bool>
+    <bool name="ga_dryRun">false</bool>
 
     <!--<screenName name="com.mobility.cariq.ui.MyCarsActivity">My Cars</screenName>-->
     <!--<screenName name="com.mobility.cariq.ui.AddDeviceActivity">Onboarding of device</screenName>-->
